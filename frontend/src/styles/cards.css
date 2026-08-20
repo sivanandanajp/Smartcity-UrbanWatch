@@ -1,0 +1,117 @@
+.stats-wrapper{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    width:420px;
+
+}
+
+.stats-list{
+
+    display:grid;
+
+    grid-template-columns:
+    1fr 1fr;
+
+    gap:14px;
+
+}
+
+.small-stat-card{
+
+    background:#1e293b;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    min-height:140px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+    border:1px solid #334155;
+    box-shadow:0 4px 12px rgba(0,0,0,0.3);
+
+}
+.small-stat-card h2{
+
+    color:#f1f5f9;
+
+    font-size:24px;
+
+    margin-bottom:6px;
+}
+
+.small-stat-card p{
+
+    color:#94a3b8;
+
+    font-size:14px;
+}
+
+.risk-meter-card{
+
+    background:#1e293b;
+
+    border-radius:24px;
+
+    padding:25px;
+
+    height:340px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:
+    0 4px 12px rgba(0,0,0,0.3);
+    border:1px solid #334155;
+}
+
+.risk-meter-card h3{
+
+    margin-top:20px;
+
+    color:#f1f5f9;
+}
+
+.risk-meter-card p{
+
+    color:#94a3b8;
+}
+
+.risk-meter-card .CircularProgressbar{
+
+    width:140px;
+}
+
+.trend{
+    font-size:13px;
+    font-weight:600;
+    margin-top:6px;
+}
+
+.positive{
+    color:#16a34a;
+}
+
+.warning{
+    color:#ea580c;
+}
+
+.danger{
+    color:#dc2626;
+}
+
+

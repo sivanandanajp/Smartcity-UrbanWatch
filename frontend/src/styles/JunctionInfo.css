@@ -1,0 +1,49 @@
+.junction-info{
+
+    background:#1e293b;
+
+    border-radius:20px;
+
+    padding:24px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.3);
+    border:1px solid #334155;
+}
+
+.junction-info h2{
+
+    font-size:32px;
+
+    font-weight:700;
+    color:#f1f5f9;
+}
+
+.peak-card h2{
+
+    color:#22c55e;
+}
+
+.junction-info select{
+
+    width:250px;
+
+    height:42px;
+
+    font-size:15px;
+
+    padding:0 12px;
+
+    border-radius:15px;
+
+    border:1px solid #334155;
+
+    background:#334155;
+    color:#e2e8f0;
+}

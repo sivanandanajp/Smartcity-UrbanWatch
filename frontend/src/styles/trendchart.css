@@ -1,0 +1,21 @@
+.trend-card{
+
+    background:#1e293b;
+
+    border-radius:24px;
+
+    padding:24px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.3);
+
+    min-height:220px;
+    border:1px solid #334155;
+}
+
+.trend-card h2{
+
+    margin-bottom:20px;
+
+    color:#f1f5f9;
+}

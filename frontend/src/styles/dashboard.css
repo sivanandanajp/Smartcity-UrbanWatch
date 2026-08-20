@@ -1,0 +1,187 @@
+.dashboard-content{
+
+    padding:30px;
+    background:#0f172a;
+    color:#e2e8f0;
+}
+
+.top-section{
+
+    display:flex;
+
+    gap:24px;
+
+    margin-top:20px;
+}
+
+.left-panel{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+}
+
+.bottom-section{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:24px;
+
+    margin-top:24px;
+}
+
+.dashboard-content{
+
+    flex:1;
+
+    padding:24px;
+}
+.export-btn {
+
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 18px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  margin-bottom: 15px;
+
+}
+
+.export-btn:hover {
+
+  opacity: 0.9;
+
+}
+.controls-row{
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+
+    margin-top:15px;
+
+    margin-bottom:15px;
+
+}
+
+.controls-row select{
+
+    padding:10px;
+
+    border-radius:10px;
+
+    border:1px solid #334155;
+    background:#1e293b;
+    color:#e2e8f0;
+
+}
+
+.selected-info{
+
+    margin-bottom:20px;
+
+}
+
+.selected-info h2{
+
+    margin:0;
+
+    font-size:2rem;
+
+    font-weight:700;
+    color:#f1f5f9;
+
+}
+
+.selected-info h3{
+
+    margin-top:5px;
+
+    color:#94a3b8;
+
+}
+.top-controls{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:20px 0;
+    flex-wrap:wrap;
+}
+
+.junction-summary-card{
+    background:white;
+    border-radius:24px;
+    padding:30px;
+    margin-top:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+.top-summary{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-bottom:25px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.summary-box{
+    text-align:center;
+}
+
+.summary-box h4{
+    color:#6b7280;
+    font-size:16px;
+    margin-bottom:8px;
+}
+
+.summary-box h2{
+    color:#111827;
+    font-size:32px;
+    font-weight:700;
+}
+
+.violation-summary{
+    margin-top:35px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.violation-box{
+    text-align:center;
+}
+
+.violation-box h3{
+    font-size:22px;
+    color:#111827;
+    margin-bottom:12px;
+}
+
+.violation-box p{
+    color:#6b7280;
+    font-size:17px;
+}
+.ranking-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}

@@ -1,0 +1,59 @@
+.violation-card{
+
+    background:#1e293b;
+
+    border-radius:24px;
+
+    padding:24px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.3);
+
+    min-height:220px;
+    border:1px solid #334155;
+}
+
+.violation-card h2{
+
+    margin-bottom:25px;
+
+    color:#f1f5f9;
+}
+
+.violation-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:18px;
+}
+
+.violation-item{
+
+    background:#334155;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    text-align:center;
+    border:1px solid #475569;
+}
+
+.violation-item h3{
+
+    font-size:32px;
+
+    color:#f1f5f9;
+
+    margin-bottom:10px;
+}
+
+.violation-item p{
+
+    color:#cbd5e1;
+
+    font-weight:500;
+}
